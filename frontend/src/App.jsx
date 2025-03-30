@@ -1,9 +1,12 @@
+import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
 
   return (
     <>
-      <h1>Hello, world</h1>
+      <Nav />
+      <About />
     </>
   )
 }
